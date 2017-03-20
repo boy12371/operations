@@ -1,0 +1,13 @@
+# yarn
+*.lock
+
+# OS or Editor folders
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Folders to ignore
+.svn
+.CVS
+.idea
+node_modules

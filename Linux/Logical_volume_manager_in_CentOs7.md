@@ -12,7 +12,7 @@ CentOs7安装openshift集群的LVM策略
 > 7. [逻辑块](#逻辑卷)
 > 8. [线性映射](#线性映射)
 > 9. [交错模式](#交错模式)
-> 10. [CentOs7安装openshift的LVM](#CentOs7安装openshift的LVM)
+> 10. [openshift的LVM策略](#openshift的LVM策略)
 
 通常一个磁盘分区的大小是固定的，随着时间的推移及应用的深入，会发现磁盘分区的空间会越来越小，甚至有时只有通过重新分区的方式来扩大分区的空间，而重新分区的代价往往就是需要重新安装操作系统。但是有了LVM技术，我们只需要将新的磁盘空间添加到空间不足的分区中即可。可以说LVM为我们管理磁盘带来了方便和灵活性。LVM（Logical Volume Manager），逻辑卷管理器，是Linux环境下对磁盘分区进行管理的一种灵活机智，LVM是建立在硬盘上和分区之上的一个逻辑层，来提高磁盘分区管理的灵活性。
 
@@ -68,4 +68,4 @@ logical extent (LE)
 实战篇
 ---
 
-10. #### CentOs7安装openshift的LVM
+10. #### openshift的LVM策略

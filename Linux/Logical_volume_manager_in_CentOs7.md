@@ -67,4 +67,5 @@ logical extent (LE)
 
 实战篇
 ---
+
 10. #### CentOs7安装openshift的LVM

@@ -55,8 +55,8 @@ logical extent (LE)
 线性映射-把一定范围的物理块按顺序分配给逻辑卷，如LV的LE 1-99映射到PV1，LE 100-347映射到PV2。
 - #### 交错模式
 交错模式－将把逻辑块交错映射到不同的物理卷中，如 LV的LE 1映射为PV1的PE1，LE 2映射为PV2的PE1，LE 3映射为PV1的PE2.。这种方式可以提高逻辑卷的性能，但是采用这种方式建立的逻辑卷将不能在它们所在的物理卷中扩展。
-![](images/Lvm_in_linux.png)
+![](resource/Lvm_in_linux.png)
 
 实战篇
 ---
-Centos7安装openshift的LVM
+- Centos7安装openshift的LVM
